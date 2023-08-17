@@ -1,0 +1,21 @@
+   51  git init
+   52  git remote add origin https://github.com/crisfelipe22/Checkpint-CristianOvalles-16Agosto.git
+   53  touch main.js
+   54  touch index.html
+   55  git add .
+   56  git commit -m "commit 01 de cristianOvalles"
+   57  git push origin master 
+   58  git branch feature
+   59  git checkout feature 
+   60  mkdir Hardware
+   61  mkdir Software
+   62  mkdir SeguridadInformatica
+   63  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   64  git add .
+   65  git commit -m "commit 02 de cristianOvalles"
+   66  git push origin feature 
+   67  git checkout master 
+   68  mv main.js resumenHardware.txt
+   69  mv index.html resumenSoftware.txt
+   70  touch comandos.txt
+   71  history 50 > comandos.txt
